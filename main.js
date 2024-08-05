@@ -65,4 +65,5 @@ function calculator(num1, num2, operation) {
 
 // Invoke the calculator function to start the program
 calculator();
-console.log(calculator(process.argv[2], process.argv[3], process.argv[4]));
+// console.log(calculator(process.argv[2], process.argv[3], process.argv[4]));
+console.log(calculator(5, 3, '+'));
